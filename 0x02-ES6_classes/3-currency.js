@@ -1,4 +1,5 @@
-export default class Currency {
+
+rt default class Currency {
   constructor(code, name) {
     if (typeof code !== 'string') {
       throw new TypeError('Code must be a string');
